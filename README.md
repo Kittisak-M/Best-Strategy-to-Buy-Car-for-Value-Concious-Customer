@@ -16,7 +16,11 @@ In this project, we explore the Vehicle Sales dataset to identify the best brand
 
 ## Introduction
 
-When considering the purchase of a vehicle, one of the key questions that often arises is its potential resale value. Many buyers wonder about the factors that can influence the selling price later on. Understanding these factors is crucial for making informed decisions and maximizing the value of your purchase. This project aims to provide a comprehensive analysis of these factors.
+When considering the purchase of a vehicle, one of the key questions that often arises is its potential resale value. Many buyers wonder about the factors that can influence the selling price later on. Understanding these factors is crucial for making informed decisions and maximizing the value of your worth buying.
+
+Cars are among the most commonly used modes of transportation in the USA. While some individuals purchase cars based on their personal preferences, others do not. Some individuals seek cars that align with their lifestyle, while others prioritize value and affordability, along with the potential for resale at a good price with low depreciation and liquidity. Today, we will explore the considerations and factors involved in purchasing a car for its worth, low depreciation, and potential for resale value.
+
+In this exploration of the Vehicle Sales dataset, we aim to identify the best brand-new or used cars to buy when  it comes to considering value and worth, which can be sold to dealerships or directly to buyers for a good price while minimizing depreciation. Factors such as model popularity, mileage, car color and age of the vehicle will be analyzed to pinpoint cars that hold their value well over time.
 
 ## Dataset 📊
 
@@ -43,10 +47,8 @@ By understanding the factors that influence vehicle resale value, consumers can 
 ## Usage 🛠️
 
 To explore the analysis and findings:
-1. Clone the repository: `git clone https://github.com/yourusername/Best-Buys-Cars-Resale-Value.git`
+1. Clone the repository: `git clone https://github.com/Kittisak-M/Best-Buys-Cars-Resale-Value.git`
 2. Navigate to the project directory: `cd Best-Buys-Cars-Resale-Value`
 3. Follow the instructions in the `notebooks` directory to run the analysis.
 
-## License 📜
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
