@@ -1,7 +1,10 @@
-Vehicle Analysis Guide
-1. รถขายแต่ละคันในแต่ละปี done
-2. ส่วนแบ่งการตลาดของรถ ใน สามปีย้อนหลัง done
-3. รถชนิดไหนขายดี suv sedan บลาๆ สามปีย้อนหลังดูเป็นเทรน
-4. สีรถภายนอกอันไหนนิยม สามปีย้อนหลังดูเป็นเทรนด์
-5. สัดส่วนเกียร์ auto กับธรรมดา
-6. 
+ most car sold price is around between 5000 to 20000 usd
+ in 2008  the car less produce and if we search on google what happend in 2008 it's financial crisis happening in USA called "" hamburger crisis  highly soar in 2 years after 2008
+ ford is the most popular car brand in the us along with chevroket and nissan 
+ transmission type automatic
+ sedan and suv
+ car color black white gray silver
+ interior color black grey beige
+ florida california pensyvania
+ pick 3 top car brand which are altima f150 and ford fusion for liquidity
+ 
