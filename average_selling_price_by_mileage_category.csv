@@ -1,4 +1,4 @@
-car_brand_name,,num_of_sold_cars,avg_price
+car_brand_name,mileage,num_of_sold_cars,avg_price
 acura cl,100001+,84,1600.0
 acura cl,35001-40000,1,4900.0
 acura cl,55001-60000,1,4700.0
