@@ -1,4 +1,4 @@
-# Best Buys: Cars with High Resale Value and Low Depreciation 🚗📈
+# Best Strategy to Buy Car for Value-Concious Customer 🚗📈
 
 ## Project Overview
 
@@ -9,10 +9,12 @@ In this project, we explore the Vehicle Sales dataset to identify the best brand
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Data Analysis](#data-analysis)
+- [Feature Engineering](#feature-engineering)
+- [Machine Learning](#machine-learning)
 - [Key Findings](#key-findings)
 - [Conclusion](#conclusion)
 - [Usage](#usage)
-- [License](#license)
+-
 
 ## Introduction
 
@@ -24,7 +26,33 @@ In this exploration of the Vehicle Sales dataset, we aim to identify the best br
 
 ## Dataset 📊
 
-The Vehicle Sales dataset includes various attributes such as year, make, model, trim, body, transmission, state, condition, odometer, color, interior, seller, MMR, selling price, and sale date. This dataset is used to perform detailed analyses and derive actionable insights.
+### Dataset Description:
+
+The "Vehicle Sales and Market Trends Dataset" provides a comprehensive collection of information pertaining to the sales transactions of various vehicles. This dataset encompasses details such as the year, make, model, trim, body type, transmission type, VIN (Vehicle Identification Number), state of registration, condition rating, odometer reading, exterior and interior colors, seller information, Manheim Market Report (MMR) values, selling prices, and sale dates.
+
+The dataset can be found [here](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data).
+
+### Column Descriptions:
+
+- **year**: The year the vehicle was manufactured.
+- **make**: The manufacturer or brand of the vehicle (e.g., Ford, Toyota).
+- **model**: The specific model of the vehicle (e.g., F-150, Camry).
+- **trim**: The specific trim or version of the vehicle model (e.g., SE, Sport).
+- **body**: The body type of the vehicle (e.g., sedan, SUV, truck).
+- **transmission**: The type of transmission the vehicle uses (e.g., automatic, manual).
+- **VIN**: The Vehicle Identification Number, a unique code to identify individual motor vehicles.
+- **state**: The state where the vehicle is registered or sold.
+- **condition**: The condition rating of the vehicle (e.g., excellent, good, fair).
+- **odometer**: The mileage of the vehicle at the time of sale.
+- **color**: The exterior color of the vehicle.
+- **interior**: The interior color of the vehicle.
+- **seller**: Information about the seller or dealership.
+- **MMR**: Manheim Market Report values, which provide estimated wholesale prices based on the vehicle's condition and other factors.
+- **sellingprice**: The actual selling price of the vehicle.
+- **saledate**: The date the vehicle was sold.
+
+This dataset is used to perform detailed analyses and derive actionable insights.
+
 
 ## Data Analysis 🔍
 
