@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-In this project, we explore the Vehicle Sales dataset to identify the best brand-new or used cars to buy based on their potential resale value and low depreciation. The goal is to provide insights and data-driven recommendations for consumers and dealerships looking to make informed decisions when purchasing vehicles. By analyzing factors such as model popularity, mileage, car color, and age, we aim to pinpoint cars that hold their value well over time.
+In this project, we explore the Vehicle Sales dataset to identify the best used cars to buy based on their potential resale value and low depreciation. The goal is to provide insights and data-driven recommendations for someone looking to purchase cars considering value and worth. By analyzing factors such as model popularity, mileage, car color, and age, we aim to pinpoint cars that hold their value well over time.
 
 
 ## Table of Contents
@@ -12,7 +12,7 @@ In this project, we explore the Vehicle Sales dataset to identify the best brand
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Data Analysis](#data-analysis)
-- [Feature Engineering](#feature-engineering)
+- [Feature Engineering](#feature-engineer)
 - [Machine Learning](#machine-learning)
 - [Key Findings](#key-findings)
 - [Conclusion](#conclusion)
