@@ -74,7 +74,9 @@ The analysis focuses on several key aspects:
 - **Mileage**: Analyzing how mileage affects the resale value of cars.
 - **Car Color**: Investigating the impact of car color on resale liquidity.
 - **Age of Vehicle**: Understanding how the age of the vehicle correlates with its depreciation.
-- **Percentage Price Change**: Analyze how the price changes with mileage
+- **Percentage Price Change**: Analyze how the price changes with 
+
+The complete data analysis project code is available['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']! 
 
 ## Feature Engineer
 
@@ -100,7 +102,7 @@ Predict unknown percent change with various odometer values.
 
 2. **Mileage Range:** 
    - The minimum mileage of the feature is 2750 miles, and the maximum is 97500 miles.
-   - The forecast will be made until a certain percentage change is reached, even if it is -100%.
+   - The forecast will be made until the percentage change reaches -100%, to determine how much mileage is required for the percentage change to reach zero
 
 
 ## Machine learning
@@ -123,7 +125,7 @@ Linear Regression was utilized to predict the percentage drop in sales price for
 5. **average precentgage price change
 
 ## Conclusion
-   To display visualization please click here!['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']
+   To see visualization please click ['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']!
 
 ## Usage 🛠️
 
