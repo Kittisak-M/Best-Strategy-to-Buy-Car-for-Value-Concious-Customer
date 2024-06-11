@@ -1,19 +1,17 @@
-# Best Strategy to Buy Used Car Considering Value, Worth and Deprecation  🚗📈
-
-
+# Best Strategy to Buy Used Car Considering Value, Worth, and Depreciation 🚗📈
 
 ## Project Overview
 
 In this project, we explore the Vehicle Sales dataset to identify the best used cars to buy based on their potential resale value and low depreciation. The goal is to provide insights and data-driven recommendations for someone looking to purchase cars considering value and worth. By analyzing factors such as model popularity, mileage, car color, and age, we aim to pinpoint cars that hold their value well over time.
 
-
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [What will you find?](#what-will-you-find?)
+- [Intended Audience](#intended-audience)
+- [Key Contents](#key-contents)
 - [Dataset](#dataset)
 - [Data Analysis](#data-analysis)
-- [Feature Engineering](#feature-engineer)
+- [Feature Engineering](#feature-engineering)
 - [Machine Learning](#machine-learning)
 - [Key Findings](#key-findings)
 - [Conclusion](#conclusion)
@@ -27,9 +25,19 @@ Cars are among the most commonly used modes of transportation in the USA. While 
 
 In this exploration of the vehicle sales dataset, we aim to identify the best strategy for buying cars for customers by considering value, worth, price changes, and quick resale potential. By analyzing factors such as model popularity, mileage, car color, and the age of the vehicle, we aim to pinpoint cars that hold their value well over time. This will help us determine which cars can be sold to dealerships or directly to buyers at a good price, while minimizing depreciation and ensuring high liquidity.
 
-## What will you find?
-   1. Guide to buy Car   
-   2.
+## Target Audience
+
+1. **Used car shoppers**: Those in the market for a pre-owned vehicle seeking guidance on making a value-conscious purchase.
+2. **Economical buyers**: Individuals looking to optimize their car-buying budget by understanding factors influencing resale prices.
+3. **Automotive industry enthusiasts**: Those interested in the economics and trends of the automotive market.
+4. **Financial advisors**: Professionals assisting clients with major purchasing decisions, including selecting vehicles with strong resale value.
+5. **Car Dealers and Sales Professionals**: Dealerships and salespersons can use the insights from the project to advise customers on car models that hold their value well and sell quickly, improving customer satisfaction and turnover.
+
+
+## Key Contents
+1. Guide to buy Car 
+2. Car Depreciation Percentage Change table
+3. Table of Average Price in Popular Model
 
 ## Dataset 📊
 
@@ -64,9 +72,9 @@ The dataset can be found [here](https://www.kaggle.com/datasets/syedanwarafridi/
 The analysis focuses on several key aspects:
 - **Model Popularity**: Identifying which car models are popular and retain their value.
 - **Mileage**: Analyzing how mileage affects the resale value of cars.
-- **Car Color**: Investigating the impact of car color on resale value.
+- **Car Color**: Investigating the impact of car color on resale liquidity.
 - **Age of Vehicle**: Understanding how the age of the vehicle correlates with its depreciation.
-
+- **Percentage Price Change**: Analyze how the price changes with mileage
 
 ## Feature Engineer
 
@@ -80,25 +88,28 @@ To group similar cars together to indicate groups worth buying, we use two key p
 
 These two features are good measures for determining the best cars to buy.
 
-### Linear Regression: 
+### Linear Regression 
 
-Predict unknown unknown price for odometer:
+Predict unknown percent change with various odometer values.
 
-1. **Percentage Change**:  
+1. **Percentage Change:** 
+   - Group all car models by each 5000-mile odometer range from 0 to 100,000 miles and calculate the average.
+   - Calculate the percentage change from each column based on the '1-5000' mileage column.
+   - Drop missing values in the '1-5000' mileage column and remove outliers.
+   - Change the range of odometer values in each columns to the median odometer value in the columns.
 
-2. **Mileage**: train all dataset
-
-These two features are good measures for determining the best cars to buy.
+2. **Mileage Range:** 
+   - The minimum mileage of the feature is 2750 miles, and the maximum is 97500 miles.
+   - The forecast will be made until a certain percentage change is reached, even if it is -100%.
 
 
 ## Machine learning
-I want to know which cars are great choice to buy so I use K-means clustering to group car by using number of car sold brand name in the dataset to measure liquidity and percent change in 3 ranges which reflex depreciation or price changing in each range
 
-metric to measure Linear R² and 
-2 technique has been used in this project
+### K-means Clustering
 
-use elbow method to indicate number of cluster
-K-Means Clustering was used to identify which groups(Elbow method used to indicate number of cluster) of cars are good to buy by considering factors such as liquidity and the decrease in sales price in each mileage.Each cluster was then analyzed to determine the characteristics of cars within it, helping to identify groups that are advantageous to purchase.
+To identify which cars were great choices to buy and had high resale potential, I used K-means clustering. I grouped the cars using the number of cars sold per brand in the dataset to measure liquidity and the percentage change in price across three mileage ranges to reflect depreciation. I used the Elbow Method to determine the optimal number of clusters. Each cluster was then analyzed to determine the characteristics of the cars within it, helping to identify groups that were advantageous to purchase.
+
+### Linear Regression
 
 Linear Regression was utilized to predict the percentage drop in sales price for each ranges of mileage. This process included preparing the data by selecting 'feature' (Value explanation is in feature engineer section) and 'percentage_change' from each range as the target variable, splitting the dataset into training and testing sets, and training the linear regression model on the training data. The model's performance was evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R²). The relationship between mileage and percentage change in sales price was visualized through scatter plots, includi
 
@@ -112,7 +123,7 @@ Linear Regression was utilized to predict the percentage drop in sales price for
 5. **average precentgage price change
 
 ## Conclusion
-
+   To display visualization please click here!['here']
 
 ## Usage 🛠️
 
