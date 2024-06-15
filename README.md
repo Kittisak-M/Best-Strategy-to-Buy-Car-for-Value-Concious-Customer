@@ -1,8 +1,8 @@
-# Best Strategy to Buy Used Car Considering Value, Worth, and Depreciation 🚗📈
+# Best Strategy to Buy Used Car Considering Value, Worth, and Depreciation in USA 🚗📈
 
 ## Project Overview
 
-In this project, we explore the Vehicle Sales dataset to identify the best used cars to buy based on their potential resale value and low depreciation. The goal is to provide insights and data-driven recommendations for someone looking to purchase cars considering value and worth. By analyzing factors such as model popularity, mileage, car color, and age, we aim to pinpoint cars that hold their value well over time.
+In this project, we explored the Vehicle Sales dataset to identify the best used cars to buy based on their potential resale value and low depreciation. The goal was to provide insights and data-driven recommendations for someone looking to purchase cars in USA considering value and worth. By analyzing factors such as model popularity, mileage, car color, and age, we aimed to pinpoint cars that held their value well over time.
 
 ## Table of Contents
 
@@ -11,19 +11,18 @@ In this project, we explore the Vehicle Sales dataset to identify the best used 
 - [Key Contents](#key-contents)
 - [Dataset](#dataset)
 - [Data Analysis](#data-analysis)
-- [Feature Engineering](#feature-engineering)
+- [Feature Engineer](#feature-engineer)
 - [Machine Learning](#machine-learning)
-- [Key Findings](#key-findings)
 - [Conclusion](#conclusion)
 - [Usage](#usage)
 
 ## Introduction
 
-When considering the purchase of a vehicle, one of the key questions that often arises is its potential resale value. Many buyers wonder about the factors that can influence the selling price later on. Understanding these factors is crucial for making informed decisions and maximizing the value of your worth buying.
+When considering the purchase of a vehicle, one of the key questions that often arose was its potential resale value. Many buyers wonder about the factors that can influence the selling price later on. Understanding these factors was crucial for making informed decisions and maximizing the value of your worth buying.
 
-Cars are among the most commonly used modes of transportation in the USA. While some individuals purchase cars based on their personal preferences, others do not. Some individuals seek cars that align with their lifestyle, while others prioritize value and affordability, along with the potential for resale at a good price with low depreciation and high liquidity. Today, we will explore the considerations and factors involved in purchasing a car for its worth, low depreciation, and potential for resale value.
+Cars were among the most commonly used modes of transportation in the USA. While some individuals purchased cars based on their personal preferences, others did not. Some individuals sought cars that aligned with their lifestyle, while others prioritize value and affordability, along with the potential for resale at a good price with low depreciation and high liquidity. Today, we would explore the considerations and factors involved in purchasing a car for its worth, low depreciation, and potential for resale value.
 
-In this exploration of the vehicle sales dataset, we aim to identify the best strategy for buying cars for customers by considering value, worth, price changes, and quick resale potential. By analyzing factors such as model popularity, mileage, car color, and the age of the vehicle, we aim to pinpoint cars that hold their value well over time. This will help us determine which cars can be sold to dealerships or directly to buyers at a good price, while minimizing depreciation and ensuring high liquidity.
+In this exploration of the vehicle sales dataset, we aimed to identify the best strategy for buying cars for customers by considering value, worth, price changes, and quick resale potential. By analyzing factors such as model popularity, mileage, car color, and the age of the vehicle, we aim to pinpoint cars that hold their value well over time. This will help us determine which cars can be sold to dealerships or directly to buyers at a good price, while minimizing depreciation and ensuring high liquidity.
 
 ## Target Audience
 
@@ -35,15 +34,16 @@ In this exploration of the vehicle sales dataset, we aim to identify the best st
 
 
 ## Key Contents
-1. Guide to buy Car 
+1. Guide to buy Used Cars
 2. Car Depreciation Percentage Change table
-3. Table of Average Price in Popular Model
+3. Table of Average Price in the Most Popular Model
+4. Price table of the High-Potential Resale Cluster
 
 ## Dataset 📊
 
 ### Dataset Description:
 
-The "Vehicle Sales and Market Trends Dataset" provides a comprehensive collection of information pertaining to the sales transactions of various vehicles. This dataset encompasses details such as the year, make, model, trim, body type, transmission type, VIN (Vehicle Identification Number), state of registration, condition rating, odometer reading, exterior and interior colors, seller information, Manheim Market Report (MMR) values, selling prices, and sale dates.
+The "Vehicle Sales and Market Trends Dataset" provided a comprehensive collection of information pertaining to the sales transactions of various vehicles. This dataset encompassed details such as the year, make, model, trim, body type, transmission type, VIN (Vehicle Identification Number), state of registration, condition rating, odometer reading, exterior and interior colors, seller information, Manheim Market Report (MMR) values, selling prices, and sale dates.
 
 The dataset can be found [here](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data/data).
 
@@ -74,7 +74,7 @@ The analysis focuses on several key aspects:
 - **Mileage**: Analyzing how mileage affects the resale value of cars.
 - **Car Color**: Investigating the impact of car color on resale liquidity.
 - **Age of Vehicle**: Understanding how the age of the vehicle correlates with its depreciation.
-- **Percentage Price Change**: Analyze how the price changes with 
+- **Percentage Price Change**: Analyze how the price changes withing various mileage ranges.
 
 The complete data analysis project code is available['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']! 
 
@@ -82,23 +82,23 @@ The complete data analysis project code is available['[here](https://github.com/
 
 ### K-means Clustering
 
-To group similar cars together to indicate groups worth buying, we use two key parameters: odometer and price. The details of these features are below:
+To group similar cars together to indicate groups worth buying, we use two keys: odometer and price. The details of these features are below:
 
-1. **Average Car Price Percent Change**: This is calculated across three mileage ranges(20,000-25,000 miles, 45,000-50,000 miles, and 95,000-100,000 miles). If there are missing values for the car model name in each range, they are filled with the average percentage change in each range. Since it is not possible to find the brand-new price of the car, the average price of cars with a 5,000-mile odometer reading is used as the base value. The percent change in price is then calculated for each mileage range and rescaled to a range of -1 to 1 to reflect the percent change across low, moderate, and high mileage ranges. 
+1. **Average Car Price Percent Change**: This was calculated across three mileage ranges(20,000-25,000 miles, 45,000-50,000 miles, and 95,000-100,000 miles). If there were missing values for the car model name in each range, they were filled with the average percentage change in each range. Since it was not possible to find the brand-new price of the car, the average price of cars with a 5,000-mile odometer reading was used as the base value to calculate percent change. The percent change in price was then calculated for each mileage range and rescaled to a range of -1 to 1 to reflect the percent change across low, moderate, and high mileage ranges. 
 
-2. **Number of Sold Cars**: This reflects the liquidity of each car model. By examining the number of cars sold, we can gauge how easily each model sells, providing insights into their market demand and resale potential.
+2. **Number of Sold Cars**: This reflected the liquidity of each car model. By examining the number of cars sold, we could gauge how easily each model sells, providing insights into their market demand and resale potential.
 
-These two features are good measures for determining the best cars to buy.
+These two features were good measures for determining the best cars to buy.
 
 ### Linear Regression 
 
-Predict unknown percent change with various odometer values.
+Predicted unknown percent change with various odometer values.
 
 1. **Percentage Change:** 
-   - Group all car models by each 5000-mile odometer range from 0 to 100,000 miles and calculate the average.
-   - Calculate the percentage change from each column based on the '1-5000' mileage column.
-   - Drop missing values in the '1-5000' mileage column and remove outliers.
-   - Change the range of odometer values in each columns to the median odometer value in the columns.
+   - Grouped all car models by each 5000-mile odometer range from 0 to 100,000 miles and calculate the average.
+   - Calculated the percentage change from each column based on the '1-5000' mileage column.
+   - Dropped missing values in the '1-5000' mileage column and remove outliers.
+   - Changed the range of odometer values in each columns to the median odometer value in the columns.
 
 2. **Mileage Range:** 
    - The minimum mileage of the feature is 2750 miles, and the maximum is 97500 miles.
@@ -109,29 +109,28 @@ Predict unknown percent change with various odometer values.
 
 ### K-means Clustering
 
-To identify which cars were great choices to buy and had high resale potential, I used K-means clustering. I grouped the cars using the number of cars sold per brand in the dataset to measure liquidity and the percentage change in price across three mileage ranges to reflect depreciation. I used the Elbow Method to determine the optimal number of clusters. Each cluster was then analyzed to determine the characteristics of the cars within it, helping to identify groups that were advantageous to purchase.
+To identify which cars were great choices to buy and had high resale potential, K-means was used to group similar data. Groupping the cars using the number of cars sold per brand in the dataset to measure liquidity and the percentage change in price across three mileage ranges to reflect depreciation. The Elbow Method had been used to determine the optimal number of clusters. Each cluster was then analyzed to determine the characteristics of the cars within it, helping to identify groups that were advantageous to purchase.
 
 ### Linear Regression
 
-Linear Regression was utilized to predict the percentage drop in sales price for each ranges of mileage. This process included preparing the data by selecting 'feature' (Value explanation is in feature engineer section) and 'percentage_change' from each range as the target variable, splitting the dataset into training and testing sets, and training the linear regression model on the training data. The model's performance was evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R²). The relationship between mileage and percentage change in sales price was visualized through scatter plots, includi
+Linear Regression was utilized to predict the percentage drop in sales price for each ranges of mileage. This process included preparing the data by selecting 'mileage' (Value explanation is in feature engineer section) and 'percentage_change' from each range as the target variable, splitting the dataset into training and testing sets, and training the linear regression model on the training data. The model's performance was evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R²). The relationship between mileage and percentage change in sales price was visualized through scatter plots.
 
 
 ## Key Findings 📈
 
 1. **Mileage Impact**: Vehicles with mileage under 10,000 tend to have a higher resale value. For example, the Ford F150 shows a stable price increase up to 30,000 miles, after which the value drops dramatically.
-2. **Model Preferences**: The Nissan Altima is a great choice for higher mileage (over 15,000 miles) due to its gradual depreciation compared to other models.
-3. **Color and Resale**: Certain car colors may have a significant impact on resale value, which is explored in the analysis
-4. **price table of top 20 cars K-Means model in each range**
-5. **average precentgage price change
+2. **Model Preferences**: The Nissan Altima was a great choice for higher mileage (over 15,000 miles) due to its gradual depreciation compared to other models.
+3. **Color and Resale**: Certain car colors might have a significant impact on resale value, which was explored in the analysis
+
 
 ## Conclusion
-   To see visualization please click ['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']!
+    The full conclusion could be found ['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']!
 
 ## Usage 🛠️
-    
+     
 To explore the analysis and findings:
-1. Clone the repository: `git clone https://github.com/Kittisak-M/Best-Buys-Cars-Resale-Value.git`
-2. Navigate to the project directory: `cd Best-Buys-Cars-Resale-Value`
-3. Follow the instructions in the `notebooks` directory to run the analysis.
+1. Clone the repository: `git clone https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Depreciation.git`
+2. Navigate to the project directory: `cd Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Depreciation`
+3. Open the Jupyter notebook in the `notebooks` directory and run all cells to see the analysis.
 
 
