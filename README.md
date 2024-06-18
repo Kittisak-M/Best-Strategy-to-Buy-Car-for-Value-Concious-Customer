@@ -124,7 +124,7 @@ Linear Regression was utilized to predict the percentage drop in sales price for
 
 
 ## Conclusion
-    The full conclusion could be found ['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']!
+    The full conclusion could be found [here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)
 
 ## Usage 🛠️
      
