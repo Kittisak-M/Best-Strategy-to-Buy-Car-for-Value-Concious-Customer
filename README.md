@@ -13,7 +13,8 @@ In this project, we explored the Vehicle Sales dataset to identify the best used
 - [Data Analysis](#data-analysis)
 - [Feature Engineering](#feature-engineering)
 - [Machine Learning](#machine-learning)
-- [Conclusion](#conclusion)
+- [Weighted Scoring](#weighted-scoring)
+- [Communication Results](#conclusion)
 - [Usage](#usage)
 
 ## Introduction
@@ -44,7 +45,7 @@ In this exploration of the vehicle sales dataset, we aimed to identify the best 
 3. **Table of Average Prices for All Models**:
    - An extensive table listing the average prices of all car models.
 
-4. **Calculated Car Appropriate Price and Car Scoring**:
+4. **Calculated Car Appropriate Price and Car Scoring in the Excel file**:
    - An analysis within the Excel file that calculated the appropriate price for a used car and provides a scoring system to indicate whether a car was a good buy, based on various metrics.
 
 
@@ -124,19 +125,12 @@ To identify which cars were great choices to buy and had high resale potential, 
 
 Linear Regression was utilized to predict the percentage drop in sales price for each ranges of mileage. This process included preparing the data by selecting 'mileage' (Value explanation is in feature engineer section) and 'percentage_change' from each range as the target variable, splitting the dataset into training and testing sets, and training the linear regression model on the training data. The model's performance was evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R²). The relationship between mileage and percentage change in sales price was visualized through scatter plots.
 
-### Weighted Scoring
+## Weighted Scoring
 
 To evaluate and rank cars based on their overall worth and potential for value retention, I developed a weighted scoring system. This system integrated multiple factors such as price performance across mileage ranges, liquidity indicators, and market demand insights derived from our analyses. This section could be found in
 
-## Key Findings 📈
-
-1. **Mileage Impact**: Vehicles with mileage under 10,000 tend to have a higher resale value. For example, the Ford F150 shows a stable price increase up to 30,000 miles, after which the value drops dramatically.
-2. **Model Preferences**: The Nissan Altima was a great choice for higher mileage (over 15,000 miles) due to its gradual depreciation compared to other models.
-3. **Color and Resale**: Certain car colors might have a significant impact on resale value, which was explored in the analysis
-
-
-## Conclusion
-    The full conclusion could be found [here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)
+## Communication Results
+Detailed information including data visualizations, key findings, purchasing guidance, weighted scoring, and conclusions could be accessed [here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)
 
 ## Usage 🛠️
      
@@ -146,8 +140,4 @@ To explore the analysis and findings:
 3. Open the Jupyter notebook in the `notebooks` directory and run all cells to see the analysis.
 
 
-Technique used in this project
-   -Feature engineering
-   -Machine Learning Model(The price prediction model using Linear Regression and group similar car using K-Means clustering)
-   -Weighted Scoring
    
