@@ -14,7 +14,7 @@ In this project, we explored the Vehicle Sales dataset to identify the best used
 - [Feature Engineering](#feature-engineering)
 - [Machine Learning](#machine-learning)
 - [Weighted Scoring](#weighted-scoring)
-- [Communication Results](#conclusion)
+- [Communication Results](#communication-results)
 - [Usage](#usage)
 
 ## Introduction
