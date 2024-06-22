@@ -11,7 +11,7 @@ In this project, we explored the Vehicle Sales dataset to identify the best used
 - [Key Contents](#key-contents)
 - [Dataset](#dataset)
 - [Data Analysis](#data-analysis)
-- [Feature Engineer](#feature-engineer)
+- [Feature Engineering](#feature-engineering)
 - [Machine Learning](#machine-learning)
 - [Conclusion](#conclusion)
 - [Usage](#usage)
@@ -24,7 +24,7 @@ Cars were among the most commonly used modes of transportation in the USA. While
 
 In this exploration of the vehicle sales dataset, we aimed to identify the best strategy for buying cars for customers by considering value, worth, price changes, and quick resale potential. By analyzing factors such as model popularity, mileage, car color, and the age of the vehicle, we aim to pinpoint cars that hold their value well over time. This will help us determine which cars can be sold to dealerships or directly to buyers at a good price, while minimizing depreciation and ensuring high liquidity.
 
-## Target Audience
+## Intended Audience
 
 1. **Used car shoppers**: Those in the market for a pre-owned vehicle seeking guidance on making a value-conscious purchase.
 2. **Economical buyers**: Individuals looking to optimize their car-buying budget by understanding factors influencing resale prices.
@@ -34,10 +34,19 @@ In this exploration of the vehicle sales dataset, we aimed to identify the best 
 
 
 ## Key Contents
-1. Guide to buy Used Cars
-2. Car Depreciation Percentage Change table
-3. Table of Average Price in the Most Popular Model
-4. Price table of the High-Potential Resale Cluster
+
+1. **Guide to Buying Used Cars Considering Worth**:
+   - A comprehensive guide to help you understand the factors to consider when purchasing a used car.
+
+2. **Car Depreciation Percentage Change Table**:
+   - A detailed table that showed the percentage change in depreciation for various car models, helping you understand how different cars retain their value over time.
+
+3. **Table of Average Prices for All Models**:
+   - An extensive table listing the average prices of all car models.
+
+4. **Calculated Car Appropriate Price and Car Scoring**:
+   - An analysis within the Excel file that calculated the appropriate price for a used car and provides a scoring system to indicate whether a car was a good buy, based on various metrics.
+
 
 ## Dataset 📊
 
@@ -70,15 +79,15 @@ The dataset can be found [here](https://www.kaggle.com/datasets/syedanwarafridi/
 ## Data Analysis 🔍
 
 The analysis focuses on several key aspects:
-- **Model Popularity**: Identifying which car models are popular and retain their value.
-- **Mileage**: Analyzing how mileage affects the resale value of cars.
+- **Model Popularity**: Identifying which car models were popular and retained their value.
+- **Mileage**: Analyzing how mileage affected the resale value of cars.
 - **Car Color**: Investigating the impact of car color on resale liquidity.
 - **Age of Vehicle**: Understanding how the age of the vehicle correlates with its depreciation.
-- **Percentage Price Change**: Analyze how the price changes withing various mileage ranges.
+- **Percentage Price Change**: Analyze how the price changeed withing various mileage ranges.
 
 The complete data analysis project code is available['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']! 
 
-## Feature Engineer
+## Feature Engineering
 
 ### K-means Clustering
 
@@ -115,6 +124,9 @@ To identify which cars were great choices to buy and had high resale potential, 
 
 Linear Regression was utilized to predict the percentage drop in sales price for each ranges of mileage. This process included preparing the data by selecting 'mileage' (Value explanation is in feature engineer section) and 'percentage_change' from each range as the target variable, splitting the dataset into training and testing sets, and training the linear regression model on the training data. The model's performance was evaluated using metrics such as Mean Squared Error (MSE) and R-squared (R²). The relationship between mileage and percentage change in sales price was visualized through scatter plots.
 
+### Weighted Scoring
+
+To evaluate and rank cars based on their overall worth and potential for value retention, I developed a weighted scoring system. This system integrated multiple factors such as price performance across mileage ranges, liquidity indicators, and market demand insights derived from our analyses. This section could be found in
 
 ## Key Findings 📈
 
@@ -134,3 +146,8 @@ To explore the analysis and findings:
 3. Open the Jupyter notebook in the `notebooks` directory and run all cells to see the analysis.
 
 
+Technique used in this project
+   -Feature engineering
+   -Machine Learning Model(The price prediction model using Linear Regression and group similar car using K-Means clustering)
+   -Weighted Scoring
+   
