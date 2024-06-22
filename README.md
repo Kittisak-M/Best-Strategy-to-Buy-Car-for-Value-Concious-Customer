@@ -10,12 +10,12 @@ In this project, we explored the Vehicle Sales dataset to identify the best used
 - [Intended Audience](#intended-audience)
 - [Key Contents](#key-contents)
 - [Dataset](#dataset)
-- [Data Analysis](#data-analysis)
+- [Data Analysis](#data-analysis-🔍)
 - [Feature Engineering](#feature-engineering)
 - [Machine Learning](#machine-learning)
 - [Weighted Scoring](#weighted-scoring)
 - [Communication Results](#communication-results)
-- [Usage](#usage)
+- [Usage](#usage-🛠️)
 
 ## Introduction
 
@@ -79,14 +79,14 @@ The dataset can be found [here](https://www.kaggle.com/datasets/syedanwarafridi/
 
 ## Data Analysis 🔍
 
-The analysis focuses on several key aspects:
+The analysis focused on several key aspects:
 - **Model Popularity**: Identifying which car models were popular and retained their value.
 - **Mileage**: Analyzing how mileage affected the resale value of cars.
 - **Car Color**: Investigating the impact of car color on resale liquidity.
 - **Age of Vehicle**: Understanding how the age of the vehicle correlates with its depreciation.
-- **Percentage Price Change**: Analyze how the price changeed withing various mileage ranges.
+- **Percentage Price Change**: Analyze how the price changed withing various mileage ranges.
 
-The complete data analysis project code is available['[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']! 
+The complete data analysis project code is available[here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)']! 
 
 ## Feature Engineering
 
