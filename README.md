@@ -10,12 +10,12 @@ In this project, we explored the Vehicle Sales dataset to identify the best used
 - [Intended Audience](#intended-audience)
 - [Key Contents](#key-contents)
 - [Dataset](#dataset)
-- [Data Analysis](#data-analysis-🔍)
+- [Data Analysis](#data-analysis)
 - [Feature Engineering](#feature-engineering)
 - [Machine Learning](#machine-learning)
 - [Weighted Scoring](#weighted-scoring)
 - [Communication Results](#communication-results)
-- [Usage](#usage-🛠️)
+- [Usage](#usage)
 
 ## Introduction
 
@@ -49,7 +49,7 @@ In this exploration of the vehicle sales dataset, we aimed to identify the best 
    - An analysis within the Excel file that calculated the appropriate price for a used car and provides a scoring system to indicate whether a car was a good buy, based on various metrics.
 
 
-## Dataset 📊
+## Dataset
 
 ### Dataset Description:
 
@@ -77,7 +77,7 @@ The dataset can be found [here](https://www.kaggle.com/datasets/syedanwarafridi/
 - **saledate**: The date the vehicle was sold.
 
 
-## Data Analysis 🔍
+## Data Analysis
 
 The analysis focused on several key aspects:
 - **Model Popularity**: Identifying which car models were popular and retained their value.
@@ -132,7 +132,7 @@ To evaluate and rank cars based on their overall worth and potential for value r
 ## Communication Results
 Detailed information including data visualizations, key findings, purchasing guidance, weighted scoring, and conclusions could be accessed [here](https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Deprecation/blob/main/Best%20Strategy%20to%20Buy%20Used%20Car%20Considering%20Value%2C%20Worth%20and%20Deprecation.ipynb)
 
-## Usage 🛠️
+## Usage
      
 To explore the analysis and findings:
 1. Clone the repository: `git clone https://github.com/Kittisak-M/Best-Strategy-to-Buy-Used-Car-Considering-Value-Worth-and-Depreciation.git`
